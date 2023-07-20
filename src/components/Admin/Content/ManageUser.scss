@@ -1,0 +1,77 @@
+
+.manage-user-container {
+    padding: 10px;
+    .title{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .users-content{
+        .btn-add-new {
+          margin: 15px ;
+           
+        }
+    }
+    .table-users-container {
+      .btn-detail {
+    
+            color: rgb(9, 123, 57);
+          
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 22px;
+            cursor: pointer;
+      }  
+      .btn-edit {
+        color: rgb(167, 124, 5);
+      
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+      .btn-delete {
+        color: rgb(255, 7, 7);
+      
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+    }
+}
+
+
+
+.modal-add-user {
+    .img-preview {
+        border: 1px dashed #ccc;
+        height: 150px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+
+        .label-upload{
+            display: flex;
+            align-items: center;
+            gap:5px;
+            border: none;
+            width: fit-content;
+            padding: 3px 10px;
+            border-radius: 5px;
+            background:#eeeeee;
+            cursor: pointer;
+            &:hover{
+                background-color: #dcdcdc;
+            }
+        }
+    
+}
